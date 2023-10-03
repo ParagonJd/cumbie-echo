@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interdimensional Puzzle Game</title>
+    <link rel="stylesheet" href="./styles/game1_styles.css">
+</head>
+<body>
+    <h1>Interdimensional Puzzle Game</h1>
+    <p>Welcome to Rick's Interdimensional Puzzle! Choose the correct answer from the dropdown to advance to the next dimension and regain access to Rick's Vault.</p>
+    <br>
+    
+    <div id="game-container">
+        <p id="question"></p>
+        <select id="answer">
+            <option value="" disabled selected>Select your answer</option>
+        </select>
+        <button id="submit">Submit Answer</button>
+    </div>
+    <p id="result"></p>
+    <a href="vault_home.html" id="vault-link" style="display: none;">Return to Rick's Vault</a>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./scripts/game1_scripts.js"></script>
+</body>
+</html>
